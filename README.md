@@ -13,6 +13,6 @@ Zajeti podatki:
 6) Tržna vrednost
 
 Delovne hipoteze:
-1)Kaksna je razporeditev najvecjih podjetij po drzavah
-2)Kako je vrednost prodanega blaga odvisna od dobička. Kaj pa od tržne vrednosti? Kako je trzna vrednost odvisna od pozicije na lestvici? itd.
-3)Če bo mogoče bi rad preveril tudi spremembo na lestvici in v prihodkih v zadnjih letih, vendar do sedaj nisem nasel potrebnih podatkov. 
+1) Kaksna je razporeditev najvecjih podjetij po drzavah
+2) Kako je vrednost prodanega blaga odvisna od dobička. Kaj pa od tržne vrednosti? Kako je trzna vrednost odvisna od pozicije na lestvici? itd.
+3) Če bo mogoče bi rad preveril tudi spremembo na lestvici in v prihodkih v zadnjih letih, vendar do sedaj nisem nasel potrebnih podatkov. 
