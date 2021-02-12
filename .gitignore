@@ -2,3 +2,5 @@ zajeti_podatki
 zajeti podatki posameznih podjetij
 .vscode
 zagon.bat
+__pycache__
+.ipynb_checkpoints
