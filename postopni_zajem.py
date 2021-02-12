@@ -1,7 +1,6 @@
 import os
 import csv, json
 import orodja
-import time
 
 
 STEVILO_PRENOSOV = 20
