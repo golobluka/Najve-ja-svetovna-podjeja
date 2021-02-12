@@ -1,78 +1,382 @@
-mesto,ime,panoga,leto_ustanovitve,stevilo_zaposlenih
-1,ICBC,Banking,1984,"445,106"
-2,China Construction Bank,Banking,1954,"352,621"
-3,JPMorgan Chase,Diversified Financials,2000,"256,981"
-4,Berkshire Hathaway,Diversified Financials,1955,"391,500"
-5,Agricultural Bank of China,Banking,1979,"464,011"
-5,Saudi Arabian Oil Company (Saudi Aramco),Oil &amp; Gas Operations,1933,"69,867"
-7,Ping An Insurance Group,Insurance,1988,"372,194"
-8,Bank of America,Banking,1904,"208,000"
-9,Apple,Technology Hardware & Equipment,1976,"137,000"
-10,Bank of China,Banking,1929,"311,133"
-11,AT&amp;T,Telecommunications Services,1876,"246,000"
-11,Toyota Motor,Consumer Durables,1937,"370,870"
-13,Alphabet,IT Software & Services,1998,"118,899"
-13,ExxonMobil,Oil & Gas Operations,1999,"74,900"
-13,Microsoft,IT Software & Services,1975,"144,000"
-16,Samsung Electronics,Technology Hardware & Equipment,1938,"105,257"
-17,Wells Fargo,Banking,1852,"259,800"
-18,Citigroup,Diversified Financials,1812,"200,000"
-19,Walmart,Retailing,1962,"2,200,000"
-20,Verizon Communications,Telecommunications Services,1983,"135,000"
-21,Royal Dutch Shell,Oil & Gas Operations,1907,"83,000"
-22,Amazon,Retailing,1994,"798,000"
-23,Volkswagen Group,Consumer Durables,1937,"671,205"
-24,UnitedHealth Group,Insurance,1977,"325,000"
-25,Allianz,Insurance,1890,"147,268"
-26,China Merchants Bank,Banking,2009,"84,683"
-27,Comcast,Media,1963,"190,000"
-28,China Mobile,Telecommunications Services,1997,"456,239"
-29,Total,Oil & Gas Operations,1924,"107,776"
-30,Postal Savings Bank Of China (PSBC),Drugs &amp; Biotechnology,1886,"132,200"
-31,Alibaba Group,Retailing,1999,"66,421"
-32,Gazprom,Oil & Gas Operations,1989,"466,100"
-32,PetroChina,Oil & Gas Operations,1999,"476,223"
-34,Johnson &amp; Johnson,Drugs &amp; Biotechnology,1886,"132,200"
-35,RBC,Banking,1864,"85,000"
-36,Walt Disney,Media,1923,"223,000"
-37,China Life Insurance,Insurance,2003,"103,826"
-38,Intel,Semiconductors,1968,"110,800"
-39,Facebook,IT Software & Services,2004,"44,942"
-40,CVS Health,Retailing,1963,"290,000"
-42,BNP Paribas,Banking,2000,"202,876"
-43,Nippon Telegraph &amp; Tel,Drugs &amp; Biotechnology,1886,"132,200"
-44,HSBC Holdings,Banking,1850,"235,000"
-45,Bank of Communications,Banking,1908,"88,906"
-46,TD Bank Group,Banking,1855,"85,000"
-47,Goldman Sachs Group,Diversified Financials,1869,"38,300"
-48,Morgan Stanley,Diversified Financials,1924,"60,431"
-49,Pfizer,Drugs & Biotechnology,1849,"88,300"
-50,Tencent Holdings,IT Software & Services,1998,"62,885"
-51,IBM,IT Software & Services,1911,"383,800"
-52,Mitsubishi UFJ Financial,Banking,2012,"119,390"
-53,General Electric,Conglomerates,1892,"205,000"
-55,Santander,Banking,1857,"196,419"
-56,Anheuser-Busch InBev,"Food, Drink & Tobacco",2008,"171,915"
-57,Industrial Bank,Banking,1988,"63,044"
-58,Reliance Industries,Oil & Gas Operations,1973,"194,056"
-58,Sony,Consumer Durables,1946,"114,400"
-60,Sinopec,Oil & Gas Operations,2000,"402,206"
-61,Chevron,Oil & Gas Operations,1879,"48,200"
-62,Siemens,Conglomerates,1847,"385,000"
-63,Cigna,Drugs & Biotechnology,1792,"73,700"
-64,AXA Group,Insurance,1859,"99,843"
-65,Shanghai Pudong Development,Banking,1992,"58,253"
-66,AIA Group,Insurance,1919,"23,000"
-66,Softbank,Telecommunications Services,1981,"76,866"
-68,Novartis,Drugs & Biotechnology,1996,"103,914"
-69,Deutsche Telekom,Telecommunications Services,1995,"210,533"
-70,Petrobras,Oil & Gas Operations,1953,"57,983"
-71,Procter &amp; Gamble,Household &amp; Personal Products,1837,"97,000"
-72,Japan Post Holdings,Insurance,1871,"245,922"
-74,Roche Holding,Drugs & Biotechnology,1896,"97,735"
-75,BMW Group,Consumer Durables,1916,"133,778"
-76,Zurich Insurance Group,Insurance,1872,"54,030"
-77,CITIC,Trading Companies,1979,"287,910"
-79,China State Construction Engineering,Construction,1957,"335,038"
-80,MetLife,Insurance,1868,"49,000"
-80,Sumitomo Mitsui Financial,Banking,2002,"86,659"
+ime,panoga,leto_ustanovitve,stevilo_zaposlenih
+ICBC,Banking,1984,445106
+China Construction Bank,Banking,1954,352621
+JPMorgan Chase,Diversified Financials,2000,256981
+Berkshire Hathaway,Diversified Financials,1955,391500
+Agricultural Bank of China,Banking,1979,464011
+Saudi Arabian Oil Company (Saudi Aramco),Oil & Gas Operations,1933,69867
+Bank of America,Banking,1904,208000
+Apple,Technology Hardware & Equipment,1976,137000
+Bank of China,Banking,1929,311133
+AT&amp;T,Telecommunications Services,1876,246000
+Toyota Motor,Consumer Durables,1937,370870
+Alphabet,IT Software & Services,1998,118899
+ExxonMobil,Oil & Gas Operations,1999,74900
+Microsoft,IT Software & Services,1975,144000
+Samsung Electronics,Technology Hardware & Equipment,1938,105257
+Wells Fargo,Banking,1852,259800
+Citigroup,Diversified Financials,1812,200000
+Walmart,Retailing,1962,2200000
+Verizon Communications,Telecommunications Services,1983,135000
+Royal Dutch Shell,Oil & Gas Operations,1907,83000
+Amazon,Retailing,1994,798000
+Volkswagen Group,Consumer Durables,1937,671205
+UnitedHealth Group,Insurance,1977,325000
+Allianz,Insurance,1890,147268
+China Merchants Bank,Banking,2009,84683
+Comcast,Media,1963,190000
+China Mobile,Telecommunications Services,1997,456239
+Total,Oil & Gas Operations,1924,107776
+Postal Savings Bank Of China (PSBC),Drugs &amp; Biotechnology,1886,132200
+Alibaba Group,Retailing,1999,66421
+Gazprom,Oil & Gas Operations,1989,466100
+PetroChina,Oil & Gas Operations,1999,476223
+Johnson &amp; Johnson,Drugs &amp; Biotechnology,1886,132200
+RBC,Banking,1864,85000
+Walt Disney,Media,1923,223000
+China Life Insurance,Insurance,2003,103826
+Intel,Semiconductors,1968,110800
+Facebook,IT Software & Services,2004,44942
+CVS Health,Retailing,1963,290000
+BNP Paribas,Banking,2000,202876
+Nippon Telegraph &amp; Tel,Drugs &amp; Biotechnology,1886,132200
+HSBC Holdings,Banking,1850,235000
+Bank of Communications,Banking,1908,88906
+TD Bank Group,Banking,1855,85000
+Goldman Sachs Group,Diversified Financials,1869,38300
+Morgan Stanley,Diversified Financials,1924,60431
+Pfizer,Drugs & Biotechnology,1849,88300
+Tencent Holdings,IT Software & Services,1998,62885
+IBM,IT Software & Services,1911,383800
+Mitsubishi UFJ Financial,Banking,2012,119390
+General Electric,Conglomerates,1892,205000
+Santander,Banking,1857,196419
+Anheuser-Busch InBev,"Food, Drink & Tobacco",2008,171915
+Industrial Bank,Banking,1988,63044
+Reliance Industries,Oil & Gas Operations,1973,194056
+Sony,Consumer Durables,1946,114400
+Sinopec,Oil & Gas Operations,2000,402206
+Chevron,Oil & Gas Operations,1879,48200
+Siemens,Conglomerates,1847,385000
+Cigna,Drugs & Biotechnology,1792,73700
+AXA Group,Insurance,1859,99843
+Shanghai Pudong Development,Banking,1992,58253
+AIA Group,Insurance,1919,23000
+Softbank,Telecommunications Services,1981,76866
+Novartis,Drugs & Biotechnology,1996,103914
+Deutsche Telekom,Telecommunications Services,1995,210533
+Petrobras,Oil & Gas Operations,1953,57983
+Procter &amp; Gamble,Household &amp; Personal Products,1837,97000
+Japan Post Holdings,Insurance,1871,245922
+Roche Holding,Drugs & Biotechnology,1896,97735
+BMW Group,Consumer Durables,1916,133778
+Zurich Insurance Group,Insurance,1872,54030
+CITIC,Trading Companies,1979,287910
+China State Construction Engineering,Construction,1957,335038
+MetLife,Insurance,1868,49000
+Sumitomo Mitsui Financial,Banking,2002,86659
+Cisco Systems,Technology Hardware & Equipment,1984,75900
+Honda Motor,Consumer Durables,1949,219722
+Commonwealth Bank,Banking,1911,48238
+Bank of Nova Scotia,Banking,1832,101813
+Raytheon Technologies,Aerospace & Defense,2020,243200
+PepsiCo,"Food, Drink & Tobacco",1965,267000
+American Express,Diversified Financials,1850,64500
+General Motors,Consumer Durables,1908,164000
+China Minsheng Bank,Banking,1996,58900
+British American Tobacco,"Food, Drink & Tobacco",1902,59989
+BHP Group,Materials,1885,80000
+Oracle,IT Software & Services,1977,136000
+Brookfield Asset Management,Diversified Financials,1997,151900
+Coca-Cola,"Food, Drink & Tobacco",1886,86200
+Enel,Utilities,1962,68253
+GlaxoSmithKline,Drugs & Biotechnology,2000,99437
+China Vanke,Construction,1984,131505
+Banco Bradesco,Banking,1943,97321
+Bayer,Drugs & Biotechnology,1863,103824
+US Bancorp,Banking,1929,69651
+Mitsubishi,Trading Companies,1954,79994
+Anthem,Drugs & Biotechnology,2004,70600
+Home Depot,Retailing,1978,415700
+BASF,Chemicals,1865,117628
+Taiwan Semiconductor,Semiconductors,1987,48752
+UBS,Banking,1862,68601
+Unilever,Household & Personal Products,1929,149867
+Country Garden Holdings,Construction,1992,101784
+EDF,Utilities,1955,164727
+China Citic Bank,Banking,2014,57045
+Rio Tinto,Materials,1873,46007
+Lloyds Banking Group,Banking,1985,77754
+Prudential Financial,Diversified Financials,1875,51511
+Sanofi,Drugs & Biotechnology,2004,100409
+Credit Agricole,Banking,2000,75423
+AbbVie,Drugs & Biotechnology,2013,30000
+Iberdrola,Utilities,1901,28750
+Hon Hai Precision,Technology Hardware & Equipment,1974,1000000
+KDDI,Telecommunications Services,1984,41996
+Enbridge,Oil & Gas Operations,1949,11300
+Manulife,Insurance,1887,35000
+Intesa Sanpaolo,Banking,1925,88682
+CNOOC,Oil & Gas Operations,1999,18703
+Dell Technologies,Technology Hardware & Equipment,1984,165000
+Medtronic,Health Care Equipment & Services,1949,90000
+China Pacific Insurance,Insurance,1991,111247
+SAIC Motor,Consumer Durables,1995,216360
+Bank of Montreal,Banking,1817,45513
+Caterpillar,Capital Goods,1925,102300
+Chubb,Insurance,1882,33000
+Itochu,Trading Companies,1858,119796
+Walgreens Boots Alliance,Retailing,1901,342000
+VINCI,Construction,1899,222397
+Bristol-Myers Squibb,Drugs & Biotechnology,1933,30000
+PNC Financial Services,Banking,1845,51918
+Generali Group,Insurance,1831,71936
+Visa,Business Services & Supplies,1958,19500
+Costco Wholesale,Retailing,1983,254000
+United Parcel Service,Transportation,1907,495000
+Duke Energy,Utilities,1904,28793
+Lockheed Martin,Aerospace & Defense,1912,110000
+HDFC Bank,Banking,1994,116971
+Allstate,Insurance,1931,46290
+China Everbright Bank,Banking,1992,45618
+Charter Communications,Media,1993,95100
+SAP,IT Software & Services,1972,100330
+Tokio Marine Holdings,Insurance,2002,40848
+CK Hutchison,Conglomerates,2014,30000
+Honeywell International,Conglomerates,1927,113000
+China Evergrande Group,Construction,2006,125526
+American International Group,Insurance,1919,46000
+Orange,Telecommunications Services,1988,135619
+Abbott Laboratories,Health Care Equipment & Services,1888,107000
+Credit Suisse Group,Banking,1856,47860
+Capital One Financial,Business Services & Supplies,1994,51900
+Amgen,Drugs & Biotechnology,1980,23400
+Truist Financial,Banking,1872,59000
+ANZ,Banking,1835,39060
+Equinor,Oil & Gas Operations,1972,21412
+Mitsui,Trading Companies,1947,43993
+Oversea-Chinese Banking,Banking,1932,29706
+China Shenhua Energy,Materials,2004,75620
+Exelon,Utilities,2000,32713
+State Bank of India,Banking,1955,257252
+Poly Developments &amp; Holdings Group,Construction,1992,56811
+China Telecom,Telecommunications Services,2002,281215
+Southern Company,Utilities,1912,27943
+BlackRock,Diversified Financials,1988,16200
+Linde,Chemicals,1907,79886
+Canadian Imperial Bank,Banking,1867,45157
+NextEra Energy,Utilities,1925,13900
+Barclays,Banking,1896,80800
+Union Pacific,Transportation,1862,37483
+Thermo Fisher Scientific,Health Care Equipment & Services,1983,75000
+Deutsche Post,Transportation,1995,499461
+Gilead Sciences,Drugs & Biotechnology,1987,11800
+Phillips 66,Oil & Gas Operations,2012,14500
+Mondelez International,"Food, Drink & Tobacco",2012,80000
+Hyundai Motor,Consumer Durables,1967,70032
+Broadcom,Semiconductors,1991,19000
+Legal &amp; General Group,Insurance,1836,10971
+ING Group,Diversified Financials,1991,56196
+3M,Conglomerates,1902,96163
+Target,Retailing,1902,368000
+Marathon Petroleum,Oil & Gas Operations,1887,60910
+Hitachi,Conglomerates,1959,295941
+Progressive,Insurance,1937,41571
+DBS,Banking,1999,28000
+ConocoPhillips,Oil & Gas Operations,1875,10400
+UniCredit,Banking,1870,94514
+Philip Morris International,"Food, Drink & Tobacco",1847,73500
+China Railway Group,Construction,2007,282256
+Accenture,IT Software & Services,1989,492000
+Munich Re,Insurance,1880,39662
+Royal Bank of Scotland,Banking,1968,62900
+Banco do Brasil,Banking,1808,96889
+China Resources Land,Construction,1994,38087
+China Railway Construction,Construction,1948,293884
+Aviva,Insurance,2000,31181
+General Dynamics,Aerospace & Defense,1899,102900
+MS&amp;AD Insurance,Insurance,2008,41467
+PICC,Insurance,1949,198457
+Aflac,Insurance,1955,11729
+Travelers,Insurance,1864,30800
+Prudential,Insurance,1848,18125
+Eli Lilly,Drugs & Biotechnology,1876,33625
+Kraft Heinz Company,"Food, Drink & Tobacco",2015,37000
+Sunac China Holdings,Construction,2003,50834
+Charles Schwab,Diversified Financials,1971,19700
+HCA Healthcare,Health Care Equipment & Services,1968,280000
+Danaher,Conglomerates,1984,60000
+Schneider Electric,Capital Goods,1836,134291
+Société Générale,Banking,1864,138240
+Midea Group,Consumer Durables,1968,114765
+Dai-ichi Life Insurance,Insurance,1902,62938
+ENGIE,Oil & Gas Operations,2008,170000
+Fiat Chrysler Automobiles,Consumer Durables,2014,191752
+Volvo Group,Consumer Durables,1927,103985
+Humana,Drugs & Biotechnology,1961,46000
+Longfor Group Holdings,Construction,1993,26316
+AstraZeneca,Drugs & Biotechnology,1999,70600
+Air Liquide,Chemicals,1902,67200
+Fresenius,Health Care Equipment & Services,1912,294134
+Northrop Grumman,Aerospace & Defense,1939,90000
+Mizuho Financial,Banking,2003,59132
+Sun Life Financial,Diversified Financials,1865,22719
+Inditex,Retailing,1963,176611
+Nike,Household & Personal Products,1964,76700
+Gree Electric Appliances,Consumer Durables,1989,88846
+Danone,"Food, Drink & Tobacco",1919,102449
+PayPal,Business Services & Supplies,1998,23200
+Cathay Financial,Insurance,2001,56764
+Surgutneftegas,Oil & Gas Operations,1990,116000
+Suncor Energy,Oil & Gas Operations,1917,12889
+Standard Chartered,Banking,1969,84398
+Tesco,Food Markets,1919,180186
+ICICI Bank,Banking,1994,86763
+Panasonic,Consumer Durables,1918,271869
+Safran,Aerospace & Defense,1984,95443
+Qualcomm,Semiconductors,1985,37000
+KBC Group,Banking,1935,37629
+East Japan Railway,Transportation,1987,73053
+National Grid,Utilities,1990,22576
+Delta Air Lines,Transportation,1924,91000
+Kroger,Food Markets,1883,435000
+China Communications Construction,Construction,2006,124457
+Shinhan Financial Group,Diversified Financials,2001,172
+Oil &amp; Natural Gas,Oil & Gas Operations,1993,31065
+Sun Hung Kai Properties,Construction,1963,37500
+Huaxia Bank,Banking,1992,41283
+Fubon Financial,Insurance,2001,45174
+Diageo,"Food, Drink & Tobacco",1997,28150
+Anglo American,Materials,1917,69000
+Mastercard,Business Services & Supplies,1966,18600
+Dominion Energy,Utilities,1983,19100
+Micron Technology,Semiconductors,1978,37000
+KB Financial Group,Banking,2008,183
+HDFC,Business Services & Supplies,1977,2575
+United Overseas Bank,Banking,1935,26872
+Bank of Beijing,Banking,1995,14760
+Japan Tobacco,"Food, Drink & Tobacco",1985,61975
+Netflix,Media,1997,8600
+Centene,Drugs & Biotechnology,1984,56600
+China Unicom,Telecommunications Services,2000,256385
+Jardine Matheson,Conglomerates,1832,464000
+Starbucks,"Hotels, Restaurants & Leisure",1971,346000
+American Electric,Utilities,1906,17408
+Sumitomo,Trading Companies,1952,65662
+Nordea Bank,Banking,1974,30399
+Orix,Business Services & Supplies,1964,31890
+TJX Cos,Retailing,1976,286000
+Mitsubishi Electric,Capital Goods,1921,145817
+State Street,Diversified Financials,1969,39103
+SK Hynix,Semiconductors,1949,28244
+RWE Group,Utilities,1898,19792
+ABB,Conglomerates,1883,144400
+Nomura,Diversified Financials,1925,27864
+BCE,Telecommunications Services,1970,52100
+Automatic Data Processing,Business Services & Supplies,1949,58000
+HP,Technology Hardware & Equipment,1939,56000
+EssilorLuxottica,Health Care Equipment & Services,2018,152954
+Henkel,Household & Personal Products,1876,52450
+Canadian Natural Resources,Oil & Gas Operations,1973,10180
+EMD Group,Drugs & Biotechnology,1891,57036
+Swiss Re,Insurance,1863,15401
+Bank Of Shanghai,Banking,1995,10459
+Archer Daniels Midland,"Food, Drink & Tobacco",1902,38100
+Anhui Conch Cement,Construction,1997,43884
+Ecopetrol,Oil & Gas Operations,1948,15157
+BT Group,Telecommunications Services,1846,106700
+Poste Italiane,Insurance,1925,118523
+TC Energy,Oil & Gas Operations,1951,7305
+CRH,Construction,1970,80300
+Macquarie Group,Diversified Financials,1985,15715
+BBVA-Banco Bilbao Vizcaya,Banking,1988,126973
+JXTG Holdings,Oil & Gas Operations,2010,40695
+Kering,Household & Personal Products,1963,38068
+Baoshan Iron &amp; Steel,Materials,2000,56158
+Daiwa House Industry,Construction,1947,44947
+Couche Tard,Food Markets,1980,109000
+Daimler,Consumer Durables,1886,298655
+Bridgestone,Consumer Durables,1931,143589
+Fannie Mae,Business Services & Supplies,1938,7500
+Tyson Foods,"Food, Drink & Tobacco",1935,141000
+New China Life Insurance,Insurance,1996,36504
+Saint-Gobain,Construction,1665,170643
+CSX,Transportation,1827,21000
+DNB,Banking,2003,9336
+Novo Nordisk,Drugs & Biotechnology,1925,43258
+LyondellBasell Industries,Chemicals,2013,19100
+EOG Resources,Oil & Gas Operations,1985,2900
+Sempra Energy,Oil & Gas Operations,1998,13969
+Eaton,Capital Goods,1911,101000
+Freddie Mac,Business Services & Supplies,1970,6871
+Heineken,"Food, Drink & Tobacco",1864,85853
+Kweichow Moutai,"Food, Drink & Tobacco",1999,27005
+CK Asset Holdings,Construction,2015,56000
+Becton Dickinson,Health Care Equipment & Services,1897,70093
+Stryker,Health Care Equipment & Services,1946,40000
+CRRC,Capital Goods,2007,165715
+Maybank,Banking,1960,43000
+Kinder Morgan,Oil & Gas Operations,1997,11086
+Marsh &amp; McLennan,Insurance,1969,76000
+Ameriprise Financial,Diversified Financials,1894,12500
+Dollar General,Retailing,1939,143000
+Shin-Etsu Chemical,Chemicals,1926,21735
+Barrick Gold,Materials,1983,21869
+BP,Oil & Gas Operations,1909,70100
+Canon,Business Services & Supplies,1937,187041
+Sompo,Insurance,2010,49387
+ASML Holding,Semiconductors,1984,24900
+Natixis,Diversified Financials,1919,19639
+Vivendi,Telecommunications Services,1853,44641
+Swiss Life Holding,Insurance,1857,9330
+Posco,Materials,1968,17569
+Mitsui Fudosan,Construction,1941,19081
+Canadian National Railway,Transportation,1832,25975
+NN Group,Insurance,1845,14971
+Fosun International,Insurance,2004,71000
+Wilmar International,"Food, Drink & Tobacco",1991,90000
+General Mills,"Food, Drink & Tobacco",1866,40000
+Carrefour,Food Markets,1959,321383
+Daikin Industries,Capital Goods,1924,76484
+Tata Consultancy Services,IT Software & Services,2004,446675
+Power Corp of Canada,Diversified Financials,1925,30600
+Boston Scientific,Health Care Equipment & Services,1979,36000
+Discover Financial Services,Business Services & Supplies,1985,17200
+Synchrony Financial,Business Services & Supplies,2003,16500
+Michelin Group,Consumer Durables,1889,121300
+Paccar,Capital Goods,1905,27000
+Sumitomo Mitsui Trust,Banking,2002,21498
+Xiaomi,Technology Hardware & Equipment,2010,18170
+Hartford Financial Services,Insurance,1810,19500
+Philips,Health Care Equipment & Services,1891,80495
+IntercontinentalExchange,Diversified Financials,2000,5989
+Norfolk Southern,Transportation,1883,28044
+BAE Systems,Aerospace & Defense,1999,79000
+Indian Oil,Oil & Gas Operations,1959,32998
+Bank of Ningbo,Banking,1997,17337
+Sysco,Food Markets,1969,69000
+CNP Assurances,Insurance,1987,5353
+Denso,Consumer Durables,1985,171992
+Newmont Mining,Materials,1921,31600
+National Commercial Bank,Banking,1953,12883
+Adidas,Household & Personal Products,1949,59533
+CTBC Financial,Banking,1966,20334
+Danske Bank,Banking,1871,22006
+China National Building,Construction,2005,155606
+Richemont,Consumer Durables,1988,35657
+Sberbank,Banking,1841,293752
+VMware,IT Software & Services,1998,31000
+Nippon Steel,Materials,1950,105796
+Komatsu,Capital Goods,1921,61908
+Talanx,Insurance,1990,23324
+Xcel Energy,Utilities,1909,11273
+Consolidated Edison,Utilities,1823,14890
+Naturgy Energy Group,Oil & Gas Operations,1843,11847
+Fiserv,Business Services & Supplies,1984,44000
+Bank Of Jiangsu,Banking,2007,15026
+Boeing,Aerospace & Defense,1916,161100
+Waste Management,Business Services & Supplies,1971,44900
+Woolworths,Food Markets,1924,196000
+Texas Instruments,Semiconductors,1930,29768
+Adobe,IT Software & Services,1982,22000
+DuPont de Nemours,Chemicals,2017,35000

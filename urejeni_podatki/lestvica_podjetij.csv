@@ -1,4 +1,4 @@
-mesto,ime,drzava,prodaja,profit,premozenska_vrednost,trzna_cena
+mesto,ime,drzava,prodaja_B,profit_B,premozenska_vrednost_B,trzna_cena_B
 1,ICBC,China,177.2,45.3,4322.5,242.3
 2,China Construction Bank,China,162.1,38.9,3822.0,203.8
 3,JPMorgan Chase,United States,142.9,30.0,3139.4,291.7

@@ -2,6 +2,9 @@ import re
 import requests, os, sys
 import csv, json
 
+# Orodna datoteka
+# Nekatere funkcije so prevzete od  https://github.com/matijapretnar/programiranje-1
+
 def pripravi_imenik(ime_datoteke):
     '''Če še ne obstaja, pripravi prazen imenik za dano datoteko.'''
     if os.path.isfile(ime_datoteke):
@@ -34,7 +37,7 @@ def zapisi_csv(slovarji, imena_polj, ime_datoteke, ime_mape):
             writer.writerow(slovar)
 
 def vrednost_stevila(string_stevila):
-    ''' Pretvarja okrajšan string števila, v čisto numerično vrednost.'''
+    ''' Pretvarja okrajšan string števila, v čisto numerično vrednost(v miliarde).'''
     string_stevila = string_stevila.replace(',', '')
     
     if string_stevila.count('B') == 1:
@@ -51,3 +54,9 @@ def obdelaj_ime_podjetja(ime):
     ime_obdelani_presledki = ime_brez_posebnih_znakov.strip().replace('  ' , ' ' ).replace(' ', '-')
 
     return ime_obdelani_presledki
+
+def zapisi_json(objekt,ime_mape, ime_datoteke):
+    '''Iz danega objekta ustvari JSON datoteko.'''
+    pripravi_imenik(ime_mape)
+    with open( os.path.join(ime_mape, ime_datoteke), 'w', encoding='utf-8') as json_datoteka:
+        json.dump(objekt, json_datoteka, indent=4, ensure_ascii=False)
